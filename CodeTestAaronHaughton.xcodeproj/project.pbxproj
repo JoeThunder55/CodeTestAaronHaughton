@@ -7,14 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		34172E90A6686728FF97FCD5 /* Pods_CodeTestAaronHaughton.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2C48D853987FCF0EA44B196 /* Pods_CodeTestAaronHaughton.framework */; };
 		D72A632F21CAAC550089CE75 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D72A632E21CAAC550089CE75 /* AppDelegate.swift */; };
 		D72A633121CAAC550089CE75 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D72A633021CAAC550089CE75 /* ViewController.swift */; };
 		D72A633421CAAC550089CE75 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D72A633221CAAC550089CE75 /* Main.storyboard */; };
 		D72A633621CAAC560089CE75 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D72A633521CAAC560089CE75 /* Assets.xcassets */; };
 		D72A633921CAAC560089CE75 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D72A633721CAAC560089CE75 /* LaunchScreen.storyboard */; };
+		D72A634121CAAEFA0089CE75 /* ContactList.swift in Sources */ = {isa = PBXBuildFile; fileRef = D72A634021CAAEFA0089CE75 /* ContactList.swift */; };
+		D72A634521CAC7230089CE75 /* AlertService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D72A634421CAC7230089CE75 /* AlertService.swift */; };
+		D7DF5D5021CAD47B0086307D /* RealmService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7DF5D4F21CAD47B0086307D /* RealmService.swift */; };
+		D7DF5D5221CC22110086307D /* ContactListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7DF5D5121CC22110086307D /* ContactListCell.swift */; };
+		D7DF5D5421CD755F0086307D /* SearchHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7DF5D5321CD755F0086307D /* SearchHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2742391BED68C061561EB263 /* Pods-CodeTestAaronHaughton.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CodeTestAaronHaughton.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CodeTestAaronHaughton/Pods-CodeTestAaronHaughton.debug.xcconfig"; sourceTree = "<group>"; };
+		6794B6C4587A83AF5CCD4074 /* Pods-CodeTestAaronHaughton.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CodeTestAaronHaughton.release.xcconfig"; path = "Pods/Target Support Files/Pods-CodeTestAaronHaughton/Pods-CodeTestAaronHaughton.release.xcconfig"; sourceTree = "<group>"; };
+		A2C48D853987FCF0EA44B196 /* Pods_CodeTestAaronHaughton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CodeTestAaronHaughton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D72A632B21CAAC550089CE75 /* CodeTestAaronHaughton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CodeTestAaronHaughton.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D72A632E21CAAC550089CE75 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D72A633021CAAC550089CE75 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +31,11 @@
 		D72A633521CAAC560089CE75 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D72A633821CAAC560089CE75 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D72A633A21CAAC560089CE75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D72A634021CAAEFA0089CE75 /* ContactList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactList.swift; sourceTree = "<group>"; };
+		D72A634421CAC7230089CE75 /* AlertService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertService.swift; sourceTree = "<group>"; };
+		D7DF5D4F21CAD47B0086307D /* RealmService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmService.swift; sourceTree = "<group>"; };
+		D7DF5D5121CC22110086307D /* ContactListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactListCell.swift; sourceTree = "<group>"; };
+		D7DF5D5321CD755F0086307D /* SearchHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchHelper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +43,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				34172E90A6686728FF97FCD5 /* Pods_CodeTestAaronHaughton.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		22CC8CF0446911113E8DB067 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2742391BED68C061561EB263 /* Pods-CodeTestAaronHaughton.debug.xcconfig */,
+				6794B6C4587A83AF5CCD4074 /* Pods-CodeTestAaronHaughton.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		D72A632221CAAC550089CE75 = {
 			isa = PBXGroup;
 			children = (
 				D72A632D21CAAC550089CE75 /* CodeTestAaronHaughton */,
 				D72A632C21CAAC550089CE75 /* Products */,
+				22CC8CF0446911113E8DB067 /* Pods */,
+				E9DFB92B12862093E45E53EC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,8 +86,21 @@
 				D72A633521CAAC560089CE75 /* Assets.xcassets */,
 				D72A633721CAAC560089CE75 /* LaunchScreen.storyboard */,
 				D72A633A21CAAC560089CE75 /* Info.plist */,
+				D72A634021CAAEFA0089CE75 /* ContactList.swift */,
+				D72A634421CAC7230089CE75 /* AlertService.swift */,
+				D7DF5D4F21CAD47B0086307D /* RealmService.swift */,
+				D7DF5D5121CC22110086307D /* ContactListCell.swift */,
+				D7DF5D5321CD755F0086307D /* SearchHelper.swift */,
 			);
 			path = CodeTestAaronHaughton;
+			sourceTree = "<group>";
+		};
+		E9DFB92B12862093E45E53EC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A2C48D853987FCF0EA44B196 /* Pods_CodeTestAaronHaughton.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +110,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D72A633D21CAAC560089CE75 /* Build configuration list for PBXNativeTarget "CodeTestAaronHaughton" */;
 			buildPhases = (
+				A87351FDE852016055D071C1 /* [CP] Check Pods Manifest.lock */,
 				D72A632721CAAC550089CE75 /* Sources */,
 				D72A632821CAAC550089CE75 /* Frameworks */,
 				D72A632921CAAC550089CE75 /* Resources */,
+				CD7A1A354B22092EA1C979D7 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -130,13 +171,59 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		A87351FDE852016055D071C1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CodeTestAaronHaughton-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CD7A1A354B22092EA1C979D7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-CodeTestAaronHaughton/Pods-CodeTestAaronHaughton-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CodeTestAaronHaughton/Pods-CodeTestAaronHaughton-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D72A632721CAAC550089CE75 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D7DF5D5221CC22110086307D /* ContactListCell.swift in Sources */,
+				D7DF5D5021CAD47B0086307D /* RealmService.swift in Sources */,
+				D72A634121CAAEFA0089CE75 /* ContactList.swift in Sources */,
 				D72A633121CAAC550089CE75 /* ViewController.swift in Sources */,
+				D7DF5D5421CD755F0086307D /* SearchHelper.swift in Sources */,
 				D72A632F21CAAC550089CE75 /* AppDelegate.swift in Sources */,
+				D72A634521CAC7230089CE75 /* AlertService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +367,7 @@
 		};
 		D72A633E21CAAC560089CE75 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2742391BED68C061561EB263 /* Pods-CodeTestAaronHaughton.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -292,12 +380,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.ServiceFusion.CodeTestAaronHaughton;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		D72A633F21CAAC560089CE75 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6794B6C4587A83AF5CCD4074 /* Pods-CodeTestAaronHaughton.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -310,7 +399,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.ServiceFusion.CodeTestAaronHaughton;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
